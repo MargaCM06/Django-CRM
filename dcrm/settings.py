@@ -77,14 +77,12 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'elderco',
-        'USER' : 'root',
-        'PASSWORD' : 'password',
-        'HOST' : 'localhost',
-        'PORT' : '3306',
+        'NAME': '<username>$<databasename>',
+        'USER': '<username>',
+        'PASSWORD': '<pass>',
+        'HOST': 'user.mysql.pythonanywhere-services.com',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
